@@ -1,0 +1,37 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="https://chir.ag/projects/drop-search/drop-search.css">
+    <link rel="stylesheet" href="https://chir.ag/projects/name-that-color/farbtastic.css" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+  
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <div id="picker"></div>
+          </div>
+          <div id="ntc" class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <div id="colortag">
+                <h2 id="colorname">Your Color</h2>
+                <div id="colorpick"></div>
+                <div id="colorbox">
+                    <div id="colorsolid"></div>
+                </div>
+                <div id="colorpanel">
+                    <div id="colorhex">Your Color:</div>
+                    <input type="text" id="colorinp" class="inputbox" value="" maxlength="10" />
+                    <div id="colorrgb"></div>
+                </div>
+                <p id="colorlegend">Outer box: Your selected color. Inner box: Actual color of closest match.</p>
+                </div>
+                <div class="clear"></div>
+          </div>
+        </div>
+      </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://chir.ag/projects/drop-search/drop-search.js"></script>
+    <script type="text/javascript" src="https://chir.ag/projects/name-that-color/farbtastic.js"></script>
+    <script type="text/javascript" src="https://chir.ag/projects/ntc/ntc.js"></script>
+    <script type="text/javascript" src="https://chir.ag/projects/name-that-color/ntc_main.js"></script>
+  
+  </body></html>

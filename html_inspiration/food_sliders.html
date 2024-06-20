@@ -1,0 +1,182 @@
+<html lang="en"><head>
+  <title>Food Slider</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../asset/logo.png">
+    <link rel="x-icon" type="image/x-icon" href="../asset/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
+  <style>
+  @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+  
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .swiper {
+    max-width: 50%;
+    overflow: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #b8b8b88f, #ffffff5e);
+  }
+  .swiper-slide-active::after {
+    background: none;
+  }
+  .swiper-slide > div {
+    text-align: center;
+    display: none;
+    opacity: 0;
+  }
+  .swiper-slide-active div {
+    display: block;
+    opacity: 1;
+  }
+  
+  .swiper-slide h2 {
+    font-size: 1.2rem;
+    font-family: "Libre Baskerville", serif;
+    position: relative;
+  }
+  
+  .swiper-slide h2::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background: linear-gradient(#e66465, #9198e5);
+  }
+  
+  @keyframes line {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .swiper-slide-active h2::after {
+    animation: line 0.5s linear forwards;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 3px 17px rgb(0 0 0 / 25%);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+  
+  @media (min-width: 768px) {
+    .swiper-slide h2 {
+      font-size: 2rem;
+    }
+  }
+  </style>
+  
+    
+    
+  </head>
+  
+  <body translate="no">
+    <!-- Swiper -->
+  <div class="swiper mySwiper swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
+    <div class="swiper-wrapper" id="swiper-wrapper-9d65197968e776b5" aria-live="polite" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-348.75px, 0px, 0px); transition-delay: 0ms;">
+      
+      <div class="swiper-slide" role="group" aria-label="2 / 5" data-swiper-slide-index="1" style="width: 232.5px; transition-duration: 0ms; transform: translate3d(0px, 0px, -800px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -7;">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=481&amp;q=80" alt="Pizza">
+        <div>
+          <h2>Pizza</h2>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-slide-visible swiper-slide-prev" role="group" aria-label="3 / 5" data-swiper-slide-index="2" style="width: 232.5px; transition-duration: 0ms; transform: translate3d(0px, 0px, -399.14px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -3;">
+        <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=410&amp;q=80" alt="Sandwich with boiled egg">
+        <div>
+          <h2>Sandwich with boiled egg</h2>
+        </div>
+      </div>
+      
+      
+    <div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group" aria-label="4 / 5" data-swiper-slide-index="3" style="width: 232.5px; transition-duration: 0ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1); z-index: 1;">
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=449&amp;q=80" alt="Toast bread with blueberry">
+        <div>
+          <h2>Toast bread with blueberry</h2>
+        </div>
+      </div><div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group" aria-label="5 / 5" data-swiper-slide-index="4" style="width: 232.5px; transition-duration: 0ms; transform: translate3d(0px, 0px, -400.86px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -3;">
+        <img src="https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=435&amp;q=80" alt="Chicken burger">
+        <div>
+          <h2>Chicken burger</h2>
+        </div>
+      </div><div class="swiper-slide" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style="width: 232.5px; transition-duration: 0ms; transform: translate3d(0px, 0px, -800px) rotateX(0deg) rotateY(0deg) scale(1); z-index: -7;">
+        <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=876&amp;q=80" alt="Grilled steak with vegetables">
+        <div>
+          <h2>Grilled steak with vegetables</h2>
+        </div>
+      </div></div>
+  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script id="rendered-js">
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "1",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 4,
+      slideShadows: false },
+  
+    keyboard: {
+      enabled: true },
+  
+    mousewheel: {
+      thresholdDelta: 70 },
+  
+    initialSlide: 0,
+    on: {
+      click(event) {
+        swiper.slideTo(this.clickedIndex);
+      } },
+  
+    breakpoints: {
+      640: {
+        slidesPerView: 2 } } });
+  //# sourceURL=pen.js
+      </script>
+  
+    
+  
+  
+  
+  </body></html>
