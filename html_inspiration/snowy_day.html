@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <style>
+            .calendar-bkg {
+            background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%);
+            }
+            .sf {
+            position: fixed;
+            animation: anim-sf0 linear 20s infinite;
+            z-index: -1;
+            }
+            .sf:before {
+            content: "*";
+            }
+            .sf.sf0 { color: #ffffff; }
+            .sf.sf1 { color: #cccccc; animation-name: anim-sf1; }
+            .sf.sf2 { color: #999999; animation-name: anim-sf2; }
+            .sf.sf3 { color: #666666; animation-name: anim-sf3; }
+            @keyframes anim-sf0 {
+            0%   { transform: translate(  0,     0) rotate(0)     scale(1.0, 1.0); }
+            95%  { transform: translate(8em, 100vh) rotate(1turn) scale(1.0, 1.0); }
+            100% { transform: translate(8em, 100vh) rotate(1turn) scale(0.0, 0.0); }
+            }
+            @keyframes anim-sf1 {
+            0%   { transform: translate(  0,     0) rotate(0)     scale(1.0, 1.0); }
+            95%  { transform: translate(6em, 100vh) rotate(1turn) scale(1.0, 1.0); }
+            100% { transform: translate(6em, 100vh) rotate(1turn) scale(0.0, 0.0); }
+            }
+            @keyframes anim-sf2 {
+            0%   { transform: translate(  0,     0) rotate(0)     scale(1.0, 1.0); }
+            95%  { transform: translate(4em, 100vh) rotate(1turn) scale(1.0, 1.0); }
+            100% { transform: translate(4em, 100vh) rotate(1turn) scale(0.0, 0.0); }
+            }
+            @keyframes anim-sf3 {
+            0%   { transform: translate(  0,     0) rotate(0)     scale(1.0, 1.0); }
+            95%  { transform: translate(2em, 100vh) rotate(1turn) scale(1.0, 1.0); }
+            100% { transform: translate(2em, 100vh) rotate(1turn) scale(0.0, 0.0); }
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <main>
+            <div class="sf sf1" style="top:-2.52em;left:79.48vw;animation-delay:-5.33s;"></div>
+            <div class="sf sf3" style="top:-4.56em; left:47.46vw; animation-delay:-8.40s;"></div>
+            <div class="sf sf0" style="top:-1.11em; left:53.96vw; animation-delay:-7.45s;"></div>
+            <div class="sf sf0" style="top:-1.26em; left:93.59vw; animation-delay:-6.73s;"></div>
+            <div class="sf sf0" style="top:-1.78em; left:20.98vw; animation-delay:-10.20s;"></div>
+            <div class="sf sf1" style="top:-2.09em; left:33.65vw; animation-delay:-3.66s;"></div>
+            <div class="sf sf1" style="top:-2.98em; left:52.37vw; animation-delay:-17.22s;"></div>
+            <div class="sf sf0" style="top:-1.06em; left:82.13vw; animation-delay:-3.28s;"></div>
+            <div class="sf sf0" style="top:-1.24em; left:58.65vw; animation-delay:-0.43s;"></div>
+            <div class="sf sf3" style="top:-4.24em; left:63.86vw; animation-delay:-16.25s;"></div>
+            <div class="sf sf1" style="top:-2.15em; left:32.62vw; animation-delay:-18.20s;"></div>
+            <div class="sf sf2" style="top:-3.73em; left:75.96vw; animation-delay:-2.76s;"></div>
+            <div class="sf sf2" style="top:-3.29em; left:36.07vw; animation-delay:-4.33s;"></div>
+            <div class="sf sf3" style="top:-4.45em; left:16.65vw; animation-delay:-10.43s;"></div>
+            <div class="sf sf3" style="top:-4.15em; left:51.74vw; animation-delay:-13.30s;"></div>
+            <div class="sf sf3" style="top:-4.39em; left:40.28vw; animation-delay:-5.02s;"></div>
+            <div class="sf sf0" style="top:-1.60em; left:55.29vw; animation-delay:-19.03s;"></div>
+            <div class="sf sf0" style="top:-1.41em; left:46.36vw; animation-delay:-0.28s;"></div>
+            <div class="sf sf1" style="top:-2.01em; left:54.83vw; animation-delay:-15.94s;"></div>
+            <div class="sf sf2" style="top:-3.78em; left:20.89vw; animation-delay:-13.90s;"></div>
+            <div class="sf sf2" style="top:-3.42em; left:12.76vw; animation-delay:-4.34s;"></div>
+            <div class="sf sf1" style="top:-2.19em; left:76.45vw; animation-delay:-6.33s;"></div>
+            <div class="sf sf3" style="top:-4.17em; left:32.21vw; animation-delay:-14.98s;"></div>
+            <div class="sf sf0" style="top:-1.82em; left:22.65vw; animation-delay:-0.85s;"></div>
+            <div class="sf sf3" style="top:-4.35em; left:57.43vw; animation-delay:-1.89s;"></div>
+            <div class="sf sf2" style="top:-3.18em; left:11.48vw; animation-delay:-14.67s;"></div>
+            <div class="sf sf1" style="top:-2.00em; left:69.41vw; animation-delay:-6.90s;"></div>
+            <div class="sf sf0" style="top:-1.85em; left:66.94vw; animation-delay:-13.49s;"></div>
+            <div class="sf sf0" style="top:-1.23em; left:84.81vw; animation-delay:-14.70s;"></div>
+            <div class="sf sf3" style="top:-4.82em; left:45.82vw; animation-delay:-14.65s;"></div>
+            <div class="sf sf1" style="top:-2.01em; left:78.29vw; animation-delay:-12.74s;"></div>
+            <div class="sf sf1" style="top:-2.11em; left:56.11vw; animation-delay:-7.86s;"></div>
+            <div class="sf sf2" style="top:-3.94em; left:14.24vw; animation-delay:-7.15s;"></div>
+            <div class="sf sf3" style="top:-4.79em; left:91.71vw; animation-delay:-16.63s;"></div>
+            <div class="sf sf1" style="top:-2.34em; left:65.95vw; animation-delay:-2.41s;"></div>
+            <div class="sf sf1" style="top:-2.67em; left:46.42vw; animation-delay:-8.26s;"></div>
+            <div class="sf sf2" style="top:-3.32em; left:55.89vw; animation-delay:-10.57s;"></div>
+            <div class="sf sf2" style="top:-3.08em; left:32.08vw; animation-delay:-16.09s;"></div>
+            <div class="sf sf2" style="top:-3.07em; left:17.19vw; animation-delay:-13.98s;"></div>
+            <div class="sf sf0" style="top:-1.93em; left:34.61vw; animation-delay:-3.38s;"></div>
+            <div class="sf sf3" style="top:-4.38em; left:7.24vw; animation-delay:-4.32s;"></div>
+            <div class="sf sf2" style="top:-3.99em; left:58.29vw; animation-delay:-15.33s;"></div>
+            <div class="sf sf1" style="top:-2.60em; left:9.79vw; animation-delay:-0.46s;"></div>
+            <div class="sf sf2" style="top:-3.44em; left:2.45vw; animation-delay:-12.76s;"></div>
+            <div class="sf sf1" style="top:-2.60em; left:62.97vw; animation-delay:-7.70s;"></div>
+            <div class="sf sf2" style="top:-3.22em; left:90.76vw; animation-delay:-19.29s;"></div>
+            <div class="sf sf1" style="top:-3.00em; left:65.71vw; animation-delay:-1.77s;"></div>
+            <div class="sf sf0" style="top:-1.50em; left:36.73vw; animation-delay:-2.19s;"></div>
+            <div class="sf sf1" style="top:-2.98em; left:40.46vw; animation-delay:-2.55s;"></div>
+            <div class="sf sf2" style="top:-3.32em; left:60.07vw; animation-delay:-6.54s;"></div>
+            <div class="sf sf2" style="top:-3.09em; left:25.16vw; animation-delay:-4.27s;"></div>
+            <div class="sf sf0" style="top:-1.02em; left:81.47vw; animation-delay:-11.99s;"></div>
+            <div class="sf sf0" style="top:-1.09em; left:27.50vw; animation-delay:-11.74s;"></div>
+            <div class="sf sf3" style="top:-4.39em; left:94.07vw; animation-delay:-2.07s;"></div>
+            <div class="sf sf3" style="top:-4.75em; left:39.06vw; animation-delay:-15.67s;"></div>
+            <div class="sf sf0" style="top:-1.44em; left:42.52vw; animation-delay:-7.03s;"></div>
+            <div class="sf sf0" style="top:-1.38em; left:66.87vw; animation-delay:-3.55s;"></div>
+            <div class="sf sf2" style="top:-3.72em; left:60.96vw; animation-delay:-2.95s;"></div>
+            <div class="sf sf2" style="top:-3.65em; left:19.19vw; animation-delay:-7.75s;"></div>
+            <div class="sf sf0" style="top:-1.65em; left:38.64vw; animation-delay:-2.19s;"></div>
+            <div class="sf sf1" style="top:-2.35em; left:31.67vw; animation-delay:-17.10s;"></div>
+            <div class="sf sf1" style="top:-2.67em; left:31.65vw; animation-delay:-13.34s;"></div>
+            <div class="sf sf1" style="top:-2.33em; left:19.35vw; animation-delay:-4.44s;"></div>
+            <div class="sf sf2" style="top:-3.44em; left:46.89vw; animation-delay:-2.25s;"></div>
+            <div class="sf sf2" style="top:-3.46em; left:13.86vw; animation-delay:-8.81s;"></div>
+            <div class="sf sf2" style="top:-3.12em; left:18.43vw; animation-delay:-10.19s;"></div>
+            <div class="sf sf3" style="top:-4.47em; left:29.09vw; animation-delay:-18.00s;"></div>
+            <div class="sf sf2" style="top:-3.64em; left:18.74vw; animation-delay:-19.89s;"></div>
+            <div class="sf sf2" style="top:-3.88em; left:52.25vw; animation-delay:-5.12s;"></div>
+            <div class="sf sf0" style="top:-1.22em; left:31.21vw; animation-delay:-5.77s;"></div>
+            <div class="sf sf0" style="top:-1.69em; left:60.93vw; animation-delay:-0.71s;"></div>
+            <div class="sf sf1" style="top:-2.14em; left:47.36vw; animation-delay:-0.71s;"></div>
+            <div class="sf sf0" style="top:-1.43em; left:44.91vw; animation-delay:-11.33s;"></div>
+            <div class="sf sf1" style="top:-2.29em; left:90.58vw; animation-delay:-18.62s;"></div>
+            <div class="sf sf2" style="top:-3.25em; left:10.13vw; animation-delay:-4.70s;"></div>
+            <div class="sf sf0" style="top:-1.53em; left:95.02vw; animation-delay:-9.12s;"></div>
+            <div class="sf sf2" style="top:-3.20em; left:49.68vw; animation-delay:-11.86s;"></div>
+            <div class="sf sf0" style="top:-1.06em; left:51.47vw; animation-delay:-9.07s;"></div>
+            <div class="sf sf2" style="top:-3.38em; left:25.35vw; animation-delay:-7.61s;"></div>
+            <div class="sf sf0" style="top:-1.77em; left:48.41vw; animation-delay:-13.83s;"></div>
+            <div class="sf sf1" style="top:-2.90em; left:60.36vw; animation-delay:-1.83s;"></div>
+            <div class="sf sf0" style="top:-1.65em; left:64.34vw; animation-delay:-0.71s;"></div>
+            <div class="sf sf3" style="top:-4.37em; left:61.92vw; animation-delay:-6.43s;"></div>
+            <div class="sf sf1" style="top:-2.38em; left:38.49vw; animation-delay:-16.86s;"></div>
+            <div class="sf sf1" style="top:-2.86em; left:79.71vw; animation-delay:-15.20s;"></div>
+            <div class="sf sf3" style="top:-4.98em; left:54.90vw; animation-delay:-14.12s;"></div>
+            <div class="sf sf0" style="top:-1.33em; left:68.32vw; animation-delay:-7.37s;"></div>
+            <div class="sf sf1" style="top:-2.04em; left:35.05vw; animation-delay:-14.88s;"></div>
+            <div class="sf sf1" style="top:-2.14em; left:4.35vw; animation-delay:-19.37s;"></div>
+            <div class="sf sf3" style="top:-4.44em; left:47.14vw; animation-delay:-4.25s;"></div>
+            <div class="sf sf1" style="top:-2.48em; left:95.38vw; animation-delay:-4.04s;"></div>
+            <div class="sf sf1" style="top:-2.42em; left:30.14vw; animation-delay:-6.65s;"></div>
+            <div class="sf sf2" style="top:-3.20em; left:95.18vw; animation-delay:-11.49s;"></div>
+            <div class="sf sf1" style="top:-2.09em; left:42.80vw; animation-delay:-17.66s;"></div>
+            <div class="sf sf2" style="top:-3.34em; left:21.08vw; animation-delay:-1.85s;"></div>
+            <div class="sf sf3" style="top:-4.80em; left:58.07vw; animation-delay:-5.49s;"></div>
+            <div class="sf sf0" style="top:-1.22em; left:75.85vw; animation-delay:-16.43s;"></div>
+            <div class="sf sf1" style="top:-2.73em; left:94.80vw; animation-delay:-11.12s;"></div>
+            <div class="sf sf3" style="top:-4.03em; left:33.02vw; animation-delay:-10.87s;"></div>
+            <div class="sf sf2" style="top:-3.78em; left:83.62vw; animation-delay:-0.46s;"></div>
+        </main>
+    </body>
+</html>
