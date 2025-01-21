@@ -1,0 +1,50 @@
+[
+        {
+          "tag": "greeting",
+          "patterns": ["xin chào", "hi", "chào", "hello"],
+          "responses": [
+            "Chào bạn",
+            "Xin chào bạn",
+            "Tôi có thể giúp gì cho bạn?"
+          ]
+        },
+        {
+          "tag": "whoareyou",
+          "patterns": [
+            "bạn là ai", 
+            "ai đây", 
+            "bạn là gì", 
+            "giới thiệu bản thân"
+          ],
+          "responses": ["Tôi là chatbot của Yamakaze"]
+        },
+        {
+          "tag": "tellaboutYamakaze",
+          "patterns":[
+            "Yamakaze là ai?",
+            "Yamakaze?"
+          ],
+          "responses":[
+            "Yamakaze là người tạo ra tôi"
+          ]
+        },
+        {
+          "tag":"Howwereyoucreated",
+          "patterns":[
+            "Bạn được tạo ra như thế nào?",
+            "Làm sao để tạo ra bạn?"
+          ],
+          "responses":[
+            "Về cơ bản, tôi chỉ là 1 đoạn mã JavaScript. Tôi không sử dụng các mô hình phức tạp, mà chỉ sử dụng toán học để chọn ra câu trả lời được lập trình sẵn. Bạn có thể tham khảo qua Levenshtein distance. Chúc bạn may mắn ^^"
+          ]
+        },
+        {
+          "tag":"moreinformationaboutYamakaze",
+          "patterns":[
+            "Nói thêm về Yamakaze"
+          ],
+          "responses":[
+            "Yamakaze từng là sinh viên ngành Khoa học máy tính, chỉ đang cố đơn giản những thứ phức tạp và bình thường hóa mọi thứ"
+          ]
+        }
+      ]
